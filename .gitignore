@@ -1,0 +1,409 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+.idea/
+data/*
+notebooks/data/*
+.DS_Store
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/inference_config.yaml
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/processed_input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/04-12-2024_06:38:07PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/inference_config.yaml
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/processed_input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/04-12-2024_06:39:33PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/04-12-2024_06:40:24PM/input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:40:24PM/processed_input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:41:47PM/input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:41:47PM/processed_input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:57:23PM/input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_06:57:23PM/processed_input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/inference_config.yaml
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/processed_input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/04-12-2024_10:19:31PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/inference_config.yaml
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/processed_input_data.pq
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/04-12-2024_10:26:43PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:22:42AM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_03:24:20AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:24:20AM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:28:08AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:28:08AM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:40:38AM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:45:43AM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:48:48AM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:54:28AM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_03:55:10AM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_04:36:31PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_04:41:52PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:00:16PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:09:47PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_05:17:36PM/predictor/lightningmodule_artifacts/weights.pt
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/inference_config.yaml
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/processed_input_data.pq
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/lightning_classes.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/config.yaml
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/attr_dict.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/idx_to_token.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/output_structure_transform/formula_transform/token_to_idx.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/output_structure_transform/smiles_transform/tokenizer.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/sample_weight_transform/structure_weights.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/datamodule_artifacts/transforms/spectrum_transform/init_params.json
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/lightningmodule_artifacts/hparams.yaml
+notebooks/tmp_predictor_files/10-12-2024_06:09:38PM/predictor/lightningmodule_artifacts/weights.pt
