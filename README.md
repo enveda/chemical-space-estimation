@@ -43,7 +43,7 @@ poetry init
 ```
 > **_NOTE:_** Please ensure you have Python version 3.10 installed on your system to run the codes efficiently. If not, please install from [here](https://www.python.org/downloads/) according to you OS.
 
-For running the jupyter notebooks, the virtual environment installed above can be selected.
+For running the Jupyter notebooks, the virtual environment installed above can be selected.
 
 For running python files, use the following command in the terminal:
 ```bash
@@ -52,10 +52,10 @@ poetry run python REPLACE_WITH_FILE_NAME.py
 
 4. Once all dependencies are installed, you can run the notebooks for the following analysis:
 * [Data Statistics](notebooks/1_data_stats.ipynb) - Data collection and summary on ENPKG.
-* [Chemical class dsitrbution](notebooks/2_chemical_class_distribution.ipynb) - Chemical class distribution of in the ENPKG dataset.
+* [Chemical class distribution](notebooks/2_chemical_class_distribution.ipynb) - Chemical class distribution of in the ENPKG dataset.
 * [Entropy score](notebooks/4_get_spectral_entropy_scores.py) - Calculating the Spectral Entropy Scores for the dataset. 
 * [Entropy score matrix](notebooks/5_create_entropy_sim_matrix.py) - Generating the Entropy Score matrix
-* [Spectral clusering](notebooks/6_ms2_clustering.ipynb) - Generating MS2 spectra clusters in the dataset
+* [Spectral clustering](notebooks/6_ms2_clustering.ipynb) - Generating MS2 spectra clusters in the dataset
 * [Comparing the known space](notebooks/7_literature_known_space.ipynb) - Comparison of the known chemical space between literature curated databases and the ENPKG dataset.
 * [Estimating chemical space](notebooks/8_estimating_chemical_space_m+h.ipynb) - Approximate calculations for the chemical space required for understanding the plant landscape
 * [Diversity assessment](10_plant_diversity.ipynb) - Assessing the diversity of ENPKG datasets with the plant kingdom.
