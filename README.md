@@ -12,7 +12,7 @@ This repository contains code and data described in detail in our paper (Engler 
 ### Citation
 If you have found our manuscript useful in your work, please consider citing:
 
-> Engler Hart, C, et al. (2025). Defining the limits of plant chemical space: challenges and estimations. *BioRxiv*, XXXXXX. [](https://doi.org/).
+> [Engler Hart, C, et al. (2025). Defining the limits of plant chemical space: challenges and estimations. *GigaScience*, giaf033](https://doi.org/10.1093/gigascience/giaf033).
 
 ## Reproducibility
 To reproduce the results, the Python virtual environment can be installed using [Poetry](https://python-poetry.org/).
