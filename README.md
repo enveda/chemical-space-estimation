@@ -1,6 +1,7 @@
 # Defining the limits of plant chemical space: challenges and estimations
 
 This repository contains code and data described in detail in our paper (Engler Hart *et al.*, 2025).
+DOI: [doi.org/10.1093/gigascience/giaf033](https://doi.org/10.1093/gigascience/giaf033)
 
 ## Table of Contents
 
